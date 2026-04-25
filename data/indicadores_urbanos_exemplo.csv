@@ -1,0 +1,6 @@
+bairro,populacao,tempo_medio_deslocamento_min,acesso_transporte_pct,areas_verdes_m2_hab,indice_vulnerabilidade,prioridade_intervencao
+Centro,18000,22,88,9.5,0.22,media
+Vila Industrial,12500,38,61,4.1,0.48,alta
+Nova Esperanca,9200,46,44,3.2,0.67,alta
+Parque Norte,7600,28,72,12.8,0.31,media
+Rio Verde,6100,55,36,2.7,0.74,muito alta
