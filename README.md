@@ -40,14 +40,36 @@ docs/       metodologia e fontes de dados possiveis
 maps/       camadas geograficas futuras
 ```
 
-## Resultados e Aprendizados Esperados
+## Como Executar
+
+```sh
+python -m venv .venv
+.venv\Scripts\activate
+pip install -r requirements.txt
+jupyter notebook notebooks/urban-data-demo.ipynb
+```
+
+## Resultados e Aprendizados
 
 - Leitura comparativa de indicadores urbanos
 - Base para mapas e dashboards territoriais
 - Identificacao de regioes prioritarias
 - Apoio a politicas publicas e projetos de impacto urbano
 
+## Resultado Demonstrativo
+
+Com os dados sinteticos em `data/indicadores_urbanos_exemplo.csv`, o notebook calcula um score de atencao territorial.
+
+| Bairro | Prioridade | Score de atencao |
+| --- | --- | ---: |
+| Rio Verde | muito alta | 100,10 |
+| Nova Esperanca | alta | 87,20 |
+| Vila Industrial | alta | 59,00 |
+| Parque Norte | media | 34,60 |
+| Centro | media | 17,40 |
+
 ## Autor
 
 Rodrigo Willemann  
 Email: rodrigo.willemann@gmail.com
+
